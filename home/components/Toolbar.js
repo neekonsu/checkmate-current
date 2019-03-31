@@ -21,29 +21,26 @@ export default class Toolbar extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
-    flexDirection: 'row',
-    alignSelf: 'flex-end',
-    height: 50
+    flexDirection: 'row'
   },
   first: {
     flex: 0.25,
     height: 50,
-    backgroundColor: 'powderblue'
+    backgroundColor: '#4285F4'
   },
   second: {
     flex: 0.25,
     height: 50,
-    backgroundColor: 'skyblue'
+    backgroundColor: '#DB4437'
   },
   third: {
     flex: 0.25,
     height: 50,
-    backgroundColor: 'steelblue'
+    backgroundColor: '#F4B400'
   },
   fourth: {
     flex: 0.25,
     height: 50,
-    backgroundColor: 'magenta'
+    backgroundColor: '#0F9D58'
   }
 })
